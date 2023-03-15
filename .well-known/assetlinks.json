@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "tw.org.csh.lab.ulink",
+    "sha256_cert_fingerprints":
+    ["1C:2F:12:2F:49:9A:A0:FD:11:6B:CD:DF:87:78:E4:EE:E1:0D:BC:65:C9:E5:36:C7:05:AD:EC:94:3C:27:FC:CD"]
+  }
+}]
