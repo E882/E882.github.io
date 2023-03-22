@@ -1,0 +1,55 @@
+{
+  "applinks": {
+    "apps": [],
+    "defaults": {
+      "caseSensitive": false
+    },
+    "details": [
+      {
+        "appID": "VS9N25K5W7.tw.org.csh.CSHEmployee",
+        "paths": [
+          "/apps/cshemployee/view/*",
+          "/apps/cshemployee/web/*"
+        ],
+        "components": [
+          {
+            "/": "/apps/cshemployee/download/*",
+            "exclude": true,
+            "comment": "Matches any URL whose path starts with /apps/cshemployee/download/ and instructs the system not to open it as a universal link"
+          },
+          {
+            "/": "/apps/cshemployee/view/*",
+            "comment": "Matches any URL whose path starts with /apps/cshemployee/view and open it as a universal link"
+          },
+          {
+            "/": "/apps/cshemployee/web/*",
+            "comment": "Matches any URL whose path starts with /apps/cshemployee/web and open it as a universal link"
+          }
+        ]
+      },
+      {
+        "appID": "VS9N25K5W7.tw.org.csh.lab.Ulink",
+        "paths": [
+          "/apps/cshemployee/view/*",
+          "/apps/cshemployee/web/*"
+        ],
+        "components": [
+          {
+            "/": "/apps/cshemployee/download/*",
+            "exclude": true,
+            "comment": "Matches any URL whose path starts with /apps/cshemployee/download/ and instructs the system not to open it as a universal link"
+          },
+          {
+            "/": "/apps/cshemployee/view/*",
+            "comment": "Matches any URL whose path starts with /apps/cshemployee/view and open it as a universal link"
+          },
+          {
+            "/": "/apps/cshemployee/web/*",
+            "comment": "Matches any URL whose path starts with /apps/cshemployee/web and open it as a universal link"
+          }
+        ]
+      }
+    ]
+  }
+}
+
